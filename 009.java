@@ -1,5 +1,6 @@
 """
-Exercício 9 - Faça um algoritmo que leia dois valores inteiros A e B, se os valores de A e B forem iguais, deverá somar os dois valores
+Exercício 9 - Faça um algoritmo que leia três notas obtidas por um aluno, e imprima na tela a média das notas.
+
 """
 
 import java.util.Scanner;
