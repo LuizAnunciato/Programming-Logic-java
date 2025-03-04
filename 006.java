@@ -1,5 +1,5 @@
 """
-Exercício 6 - Faça um algoritmo que leia dois valores inteiros A e B, se os valores de A e B forem iguais, deverá somar os dois valores
+Exercício 6 - Faça um algoritmo que leia um valor qualquer e imprima na tela com um reajuste de 5%.
 """
 
 import java.util.Scanner;
