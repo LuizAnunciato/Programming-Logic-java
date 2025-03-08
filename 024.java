@@ -4,7 +4,7 @@ Exercício 24 - Faça um programa que receba um número inteiro entre 1 e 7 e in
 
 import java.util.Scanner;
 
-public class Calculadora {
+public class estudo {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
