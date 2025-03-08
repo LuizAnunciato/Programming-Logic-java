@@ -1,3 +1,2 @@
 """
-Exercício 23 - Escrever um programa que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão dos números lidos
-"""
+Exercício 23 - Criar um programa que leia pelo teclado um valor inteiro e diga se é par ou ímpar.
