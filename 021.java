@@ -4,20 +4,28 @@ Exercício 21 - Faça um algoritmo que calcule a quantidade de litros de combust
   
 import java.util.Scanner;
 
-public class estudo {
+public class ConsumoCombustivel {
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-    System.out.println("Digite qual o destino da sua viagem: ");
-    String destino = sc.nextLine();
+        // Entrada de dados
+        System.out.println("Digite o tempo gasto na viagem (em horas): ");
+        double tempo = sc.nextDouble();
 
-    System.out.println("Digite quantos KM totais tem sua viagem: ");
-    int km_total = sc.next();
+        System.out.println("Digite a velocidade média durante a viagem (em km/h): ");
+        double velocidadeMedia = sc.nextDouble();
 
-    int litros = km_total / 12;
+        // Cálculo da distância percorrida
+        double distancia = tempo * velocidadeMedia;
 
-    System.out.println("Para chegar a " + destino + ", você precisará de " + litros + " litros de combustível.");
-        
-    sc.close();
+        // Cálculo do consumo de combustível
+        double litrosUsados = distancia / 12; // Considerando que o carro faz 12 km/l
+
+        // Saída dos resultados
+        System.out.println("Distância percorrida: " + distancia + " km");
+        System.out.println("Quantidade de litros de combustível utilizados: " + litrosUsados + " litros");
+
+        sc.close();
     }
 }
+
